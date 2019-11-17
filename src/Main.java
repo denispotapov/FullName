@@ -5,13 +5,11 @@ public class Main {
         f.setName("Иван");
         f.setSurname("Иванов");
         f.setPatronymic("Иванович");
-        String name = f.getName();
+        /*String name = f.getName();
         String surname = f.getSurname();
-        String patronymic = f.getPatronymic();
+        String patronymic = f.getPatronymic();*/
 
         f.printFullName();
-
-
 
 
     }

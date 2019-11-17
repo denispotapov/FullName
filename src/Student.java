@@ -5,6 +5,7 @@ public class Student {
     private String patronymic;
 
     public String getName() {
+
         return name;
     }
 
@@ -24,12 +25,11 @@ public class Student {
         return patronymic;
     }
 
-    public void setPatronymic(String patronymic) {
+    void setPatronymic(String patronymic) {
         this.patronymic = patronymic;
     }
 
-    public void printFullName() {
-        System.out.printf("Фамилия: " + getSurname() + " Имя: " + getName() + " Отчество: " + getPatronymic());
-
+    void printFullName() {
+        System.out.print("Фамилия: " + surname + " Имя: " + name + " Отчество: " + patronymic + "\n");
     }
 }
